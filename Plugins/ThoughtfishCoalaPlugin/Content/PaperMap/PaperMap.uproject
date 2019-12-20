@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.23",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "ThoughtfishCoalaPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/bf523fe15d19423bae4e18ce537c1826"
+		},
+		{
+			"Name": "ThoughtfishCoalaPluginContentMap2",
+			"Enabled": false
+		}
+	]
+}

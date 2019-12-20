@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "0.0.2",
+	"FriendlyName": "Coala Blueprints",
+	"Description": "COALA is the one-stop-shop for real world data and makes your app smarter and AR-experiences meaningful. Build your own Real World product now!",
+	"Category": "Thoughtfish",
+	"CreatedBy": "Thoughtfish GmbH",
+	"CreatedByURL": "http://www.thoughtfish.de/",
+	"DocsURL": "https://sites.google.com/a/thoughtfish.de/coalapluginunreal/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/bf523fe15d19423bae4e18ce537c1826",
+	"SupportURL": "hello@thoughtfish.de",
+	"EngineVersion": "4.23.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ThoughtfishCoalaPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"IOS",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "LocationServicesBPLibrary",
+			"Enabled": true
+		}
+	]
+}
